@@ -1,0 +1,35 @@
+package com.basic.program3;
+import java.util.Scanner;
+
+public class oddAgain {
+
+	public static void main(String[] args) {
+		
+				Scanner sc = new Scanner (System.in);
+				System.out.println("Enter the limit");
+				int a = sc.nextInt();
+				int j =1;
+				for (int i=1;i<=a;i++)
+				{
+					if(i==1)
+					{
+						System.out.println(j);
+						
+					}
+					else if(i%2==0)
+					{
+						j=j+2;
+						System.out.println(j);
+					}
+					
+					
+				else
+					{
+					
+					j=j+2;
+					System.out.println(j);
+					}
+					
+				}
+	}
+}
